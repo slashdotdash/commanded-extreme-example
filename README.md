@@ -1,19 +1,20 @@
-# Example
+#  Commanded example application
 
-**TODO: Add description**
+Using the Extreme adapter ([commanded-extreme-adapter](https://github.com/slashdotdash/commanded-extreme-adapter)) for Greg Young's Event Store.
 
-## Installation
+## Getting started
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `commanded_extreme_example` to your list of dependencies in `mix.exs`:
+  1. Install and run the [Event Store](https://geteventstore.com/).
 
-```elixir
-def deps do
-  [{:commanded_extreme_example, "~> 0.1.0"}]
-end
+  2. Get dependencies and start an interactive Elixir shell:
+
+```
+mix deps.get
+iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/commanded_extreme_example](https://hexdocs.pm/commanded_extreme_example).
+  3. Execute the example function to dispatch commands.
 
+```elixir
+Example.run()
+```
