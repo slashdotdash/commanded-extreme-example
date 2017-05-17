@@ -17,7 +17,7 @@ defmodule Example.Mixfile do
   defp deps do
     [
       {:commanded, "~> 0.10"},
-      {:commanded_extreme_adapter, github: "slashdotdash/commanded-extreme-adapter"},
+      {:commanded_extreme_adapter, "~> 0.1"},
     ]
   end
 end
